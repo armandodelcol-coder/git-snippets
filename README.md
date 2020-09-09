@@ -1,6 +1,11 @@
 # git-snippets
 Git snippets for forgotten people.
 
+## Config User
+
+`git config --global user.name "User Name"`
+`git config --global user.email "useremail@example.com"`
+
 ## New branch
 
 `git checkout -b branch-name`
