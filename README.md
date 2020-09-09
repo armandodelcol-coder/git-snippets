@@ -8,21 +8,21 @@ Git snippets for forgotten people.
 
 ## New branch
 
-`git checkout -b branch-name`
+- `git checkout -b branch-name`
 
 ## Undo all the modifications after last commit (local)
 
-`git clean -df`
-`git checkout -- .`
+- `git clean -df`
+- `git checkout -- .`
 
 ## Undo last commit but keep files (local)
 
-`git reset --soft HEAD~1`
+- `git reset --soft HEAD~1`
 
 ## Undo last commit and reset modification in files (local)
 
-`git reset --hard HEAD~1`
+- `git reset --hard HEAD~1`
 
 ## Delete last commit in github (remote)
 
-`git push -f origin HEAD^:master`
+- `git push -f origin HEAD^:master`
